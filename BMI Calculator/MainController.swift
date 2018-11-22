@@ -36,21 +36,24 @@ class MainController: UIViewController {
         let cm = CalculatorBMI(userWeight: weightInKG, userHeight: heightInCM)
         let result = cm.calculBMIAction()
         
-        resultLabel.text = "BMI: \(result)"
         
-        // J'ai codé comme un sale
+        // g kodé com 1 sal :)
         if (result <= 18.4) {
+            resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Under Weight"
         } else if (result > 18.4 && result <= 25) {
+            resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Normal Weight"
         } else if (result > 25 && result <= 30) {
+            resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Over Weight"
         } else if (result > 30) {
+            resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Obese"
         } else {
-            stateLabel.text = ""
+            resultLabel.text = "You must fill the fields correctly."
+            stateLabel.text = "Example: weight: 68 height: 178"
         }
-        
     }
     
     @IBAction func cancelButton(_ sender: UIButton) {
@@ -62,6 +65,16 @@ class MainController: UIViewController {
         
         cancelButtonOutlet.isHidden = true
         
+    }
+    
+    // MARK: Functions
+    
+    // Deprecated
+    func checker(textField: UITextField) -> Bool {
+        guard (!textField.text!.isEmpty) else {
+            return false
+        }
+        return true
     }
 
 }
