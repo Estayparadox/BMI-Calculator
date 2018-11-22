@@ -16,7 +16,8 @@ class MainController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var stateLabel: UILabel!
     
-    @IBAction func calculButton(_ sender: Any) {
+    @IBOutlet weak var calculButtonOutlet: UIButton!
+    @IBAction func calculButton(_ sender: UIButton) {
         
         guard let weightInKG = weightTextField.text else { return }
         guard let heightInCM = heightTextField.text else { return }
@@ -44,6 +45,7 @@ class MainController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        calculButtonOutlet.layer.cornerRadius = 5
         // nothing to add for now
     }
 
