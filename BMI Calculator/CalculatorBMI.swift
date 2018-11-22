@@ -11,6 +11,8 @@ import UIKit
 
 struct CalculatorBMI {
     
+    // MARK: Variables
+    
     let userWeight: Double
     let userHeight: Double
     
@@ -18,6 +20,8 @@ struct CalculatorBMI {
         self.userWeight = Double(userWeight) ?? 0.0
         self.userHeight = Double(userHeight) ?? 0.0
     }
+    
+    // MARK: Functions
     
     func calculBMIAction() -> Double {
         return userWeight / ((userHeight / 100) * (userHeight / 100))
