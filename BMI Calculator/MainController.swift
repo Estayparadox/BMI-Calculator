@@ -79,20 +79,29 @@ class MainController: UIViewController {
         
         // g kodé com 1 sal :)
         if (result <= 18.4) {
+            stateLabel.isHidden = false
             resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Under Weight"
+            stateLabel.textColor = UIColor.red
         } else if (result > 18.4 && result <= 25) {
+            stateLabel.isHidden = false
             resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Normal Weight"
+            stateLabel.textColor = UIColor.green
         } else if (result > 25 && result <= 30) {
+            stateLabel.isHidden = false
             resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Over Weight"
+            stateLabel.textColor = UIColor.orange
         } else if (result > 30) {
+            stateLabel.isHidden = false
             resultLabel.text = "BMI: \(result)"
             stateLabel.text = "Obese"
+            stateLabel.textColor = UIColor.red
         } else {
+            stateLabel.isHidden = true
             resultLabel.text = "Fill the fields to know your BMI."
-            stateLabel.text = "Example: weight: 68.4 height: 178.2"
+            stateLabel.textColor = UIColor.black
         }
     }
     
@@ -113,7 +122,7 @@ class MainController: UIViewController {
     
     func showAlert() {
         resultLabel.text = "Fill the fields to know your BMI."
-        stateLabel.text = "Example: weight: 68.4 height: 178.2"
+        stateLabel.isHidden = true
         let alertController = UIAlertController(title: "Wrong values", message: "You must fill the fields with numeric values.", preferredStyle: .alert)
         let defaultAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
         alertController.addAction(defaultAction)
@@ -122,7 +131,7 @@ class MainController: UIViewController {
     
     func showAlertInput() {
         resultLabel.text = "Fill the fields to know your BMI."
-        stateLabel.text = "Example: weight: 68.4 height: 178.2"
+        stateLabel.isHidden = true
         let alertController = UIAlertController(title: "Wrong values", message: "Your weight or your height can not be equal to 0.", preferredStyle: .alert)
         let defaultAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
         alertController.addAction(defaultAction)
