@@ -80,22 +80,22 @@ class MainController: UIViewController {
         // g kodé com 1 sal :)
         if (result <= 18.4) {
             stateLabel.isHidden = false
-            resultLabel.text = "BMI: \(result)"
+            resultLabel.text = "BMI: \(Double(round(100*result)/100))"
             stateLabel.text = "Under Weight"
             stateLabel.textColor = UIColor.red
         } else if (result > 18.4 && result <= 25) {
             stateLabel.isHidden = false
-            resultLabel.text = "BMI: \(result)"
+            resultLabel.text = "BMI: \(Double(round(100*result)/100))"
             stateLabel.text = "Normal Weight"
             stateLabel.textColor = UIColor.green
         } else if (result > 25 && result <= 30) {
             stateLabel.isHidden = false
-            resultLabel.text = "BMI: \(result)"
+            resultLabel.text = "BMI: \(Double(round(100*result)/100))"
             stateLabel.text = "Over Weight"
             stateLabel.textColor = UIColor.orange
         } else if (result > 30) {
             stateLabel.isHidden = false
-            resultLabel.text = "BMI: \(result)"
+            resultLabel.text = "BMI: \(Double(round(100*result)/100))"
             stateLabel.text = "Obese"
             stateLabel.textColor = UIColor.red
         } else {
