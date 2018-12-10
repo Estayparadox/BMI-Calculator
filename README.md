@@ -16,8 +16,9 @@ The purpose of this project was to realize a single-view application that gives 
 
 ## How to be healthy ?
 
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" align="left" width="50%" height="50%" />
 <img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" align="left" width="45%" height="45%" />
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" align="right" width="50%" height="50%" />
+</br>
 
 ## Requirement
 * iOS 12.1
