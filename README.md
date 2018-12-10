@@ -12,12 +12,12 @@ The purpose of this project was to realize a single-view application that gives 
 
 ## Demo
 
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" width="200px" height="350px" />
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" align="center" width="200px" height="350px" />
 
 ## How to be healthy ?
 
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" width="40%" height="40%" />
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" width="25%" height="25%" />
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" align="left" width="50%" height="50%" />
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" align="left" width="45%" height="45%" />
 
 ## Requirement
 * iOS 12.1
