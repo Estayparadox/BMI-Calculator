@@ -1,4 +1,5 @@
 <img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/Icon-App-60x60.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/Icon-App-60x60.png" align="right" width="200" height="200" />
+
 # BMICalculator
 
 ![badge1](https://img.shields.io/badge/license-MIT-brightgreen.svg )
@@ -9,14 +10,14 @@ BMICalculator is a Swift application developed as part of a mobile application d
 
 The purpose of this project was to realize a single-view application that gives the body mass index according to the height and weight of the user.
 
-## How to be healthy ?
-
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" width="50%" height="50%" />
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" width="50%" height="50%" />
-
 ## Demo
 
-<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" width="50%" height="50%" />
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" width="200px" height="350px" />
+
+## How to be healthy ?
+
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/calculimcENG.jpg" width="40%" height="40%" />
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/IMCENG.png" width="25%" height="25%" />
 
 ## Requirement
 * iOS 12.1
