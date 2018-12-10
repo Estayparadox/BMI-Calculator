@@ -1,4 +1,6 @@
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/Icon-App-60x60.png" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/Icon-App-60x60.png" align="right" width="200" height="200" />
 # BMICalculator
+
 ![badge1](https://img.shields.io/badge/license-MIT-brightgreen.svg )
 ![badge1](https://img.shields.io/badge/language-Swift-yellow.svg )
 
@@ -14,6 +16,7 @@ The purpose of this project was to realize a single-view application that gives 
 
 ## Demo
 
+<img src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" alt="" data-canonical-src="https://github.com/Estayparadox/BMICalculator/blob/master/ressources/demo.gif" width="50%" height="50%" />
 
 ## Requirement
 * iOS 12.1
